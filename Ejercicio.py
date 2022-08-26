@@ -8,3 +8,7 @@ noptions=int(input("Cuantas opcines desea ingresar:"))
 def add():
     descripcion=input("Redacte la descripcion de la funcion:")
     nombre=input("Digite el nombre de la funcion: ")
+    d = {
+        "Nombre de la funcion: " + nombre,
+        "Descripcion de la funcion: "+ descripcion
+        }
