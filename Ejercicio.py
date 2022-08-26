@@ -8,7 +8,7 @@ noptions=int(input("Cuantas opcines desea ingresar:"))
 def add():
     descripcion=input("Redacte la descripcion de la funcion:")
     nombre=input("Digite el nombre de la funcion: ")
-     d = {
+    d = {
     "Nombre de la funcion: " + nombre,
     "Descripcion de la funcion: "+ descripcion
     }
@@ -17,3 +17,6 @@ def add():
     
 for i in range(0, noptions):
     add()
+    
+for x in lista:
+    print(x)
