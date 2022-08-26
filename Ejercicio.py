@@ -12,4 +12,5 @@ def add():
     "Nombre de la funcion: " + nombre,
     "Descripcion de la funcion: "+ descripcion
     }
-    
+    tupla =(d)
+    lista.append(tupla)
