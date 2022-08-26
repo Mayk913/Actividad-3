@@ -14,3 +14,6 @@ def add():
     }
     tupla =(d)
     lista.append(tupla)
+    
+for i in range(0, noptions):
+    add()
